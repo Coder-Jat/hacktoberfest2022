@@ -1,6 +1,6 @@
 
 <p align="center">
-   ![Fancy logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAQSrVNxjnZ0BOHHD64OYeEClhIBWcJzFADA&usqp=CAU#gh-light-mode-only)
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAQSrVNxjnZ0BOHHD64OYeEClhIBWcJzFADA&usqp=CAU" />
 </p>
 
 #  __**HACKTOBERFEST 2022**__
