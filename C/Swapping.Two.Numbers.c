@@ -21,8 +21,9 @@ void _swap(int *a , int *b){
 }
 
 int main(){
-    int x = 3;
-    int y = 5;
+    int x, y;
+   printf("Enter the numbers X and Y: ");
+   scanf("%d  %d", &X, &Y);
 
     swap(x , y);
     printf("X = %d & Y = %d \n", x, y);
