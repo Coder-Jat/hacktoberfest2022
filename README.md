@@ -10,6 +10,7 @@ __ __
 
 # CONTRIBUTORS:
 
+__ __
 
 ## HERE'S WHAT YOU NEED TO KNOW TO PARTICIPATE AND COMPLETE HACKTOBERFEST:
 
@@ -25,6 +26,8 @@ __ __
 
 __ __
 # RULES FOR PULL/MERGE REQUEST:
+#
+__ __
 
 HERE’S HOW WE VALIDATE CONTRIBUTOR PULL/MERGE REQUESTS (“PR/MRS”) FOR HACKTOBERFEST
 
@@ -71,6 +74,5 @@ We continually evaluate all of the checks except the [PARTICIPATING] check. If i
 
 After the 7-day review period completes, your PR/MR will be automatically accepted for Hacktoberfest assuming it still passes all the checks. Once accepted for Hacktoberfest, we stop checking. :party:
 ~~~
-
 
 
