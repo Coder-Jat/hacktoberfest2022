@@ -1,7 +1,7 @@
 
-
-![Fancy logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAQSrVNxjnZ0BOHHD64OYeEClhIBWcJzFADA&usqp=CAU#gh-light-mode-only)
-
+<p align="center">
+   ![Fancy logo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAQSrVNxjnZ0BOHHD64OYeEClhIBWcJzFADA&usqp=CAU#gh-light-mode-only)
+</p>
 
 #  __**HACKTOBERFEST 2022**__
 __ __
@@ -16,7 +16,7 @@ __ __
 
 ### **Where to make Pull request?**
 __ __
-#### Pull requests can be made in any GITHUB/GITLAB hosted project that’s participating in   Hacktoberfest (look for the “hacktoberfest” topic
+#### Pull requests can be made in any GITHUB/GITLAB hosted project that’s participating in   Hacktoberfest (look for the “HACKTOBERFEST 2022” topic)
 ###  **When does it count?**
 __ __
 #### Project maintainers must accept your pull/merge requests for them to count toward your total
