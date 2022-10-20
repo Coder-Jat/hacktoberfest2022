@@ -1,0 +1,54 @@
+/*This is the code for showing real time clock.
+Contributed by Rishi*/
+#include<stdio.h>
+#include<stdlib.h>
+#include<unistd.h>
+#include<conio.h>
+#include<time.h>
+void time_clock()
+{
+    time_t currenttime;
+    time(&currenttime);
+    struct tm *ti=localtime(&currenttime);
+
+    int i=1;
+    start:
+        if(i!=1)
+            system("cls");
+        printf("%02d : %02d : ",ti->tm_hour,ti->tm_min);
+
+    while(1)
+    {
+
+        printf("%02d\b\b",ti->tm_sec);
+
+        ti->tm_sec++;
+        if(ti->tm_sec==60)
+        {
+            ti->tm_sec=0;
+            goto min;
+            }
+        sleep(1);
+        i++;
+    }
+    min:
+        ti->tm_min++;
+        if(ti->tm_min==60)
+        {
+            goto hour;
+        }
+        goto start;
+    hour:
+        ti->tm_hour++;ti->tm_min=0;
+        if(ti->tm_hour==24)
+        {
+        ti->tm_hour=0;
+        ti->tm_min=0;
+        ti->tm_sec=0;
+        }
+        goto start;
+}
+int main()
+{
+time_clock();
+}
